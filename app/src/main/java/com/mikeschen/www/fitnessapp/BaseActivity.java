@@ -49,6 +49,7 @@ public class BaseActivity extends AppCompatActivity {
         db = new DatabaseHelper(mContext.getApplicationContext());
         heightWeightDB = new HeightWeightDatabaseHelper(mContext.getApplicationContext());
 
+
         mSharedPreferences = PreferenceManager.getDefaultSharedPreferences(mContext);
         mEditor = mSharedPreferences.edit();
     }
